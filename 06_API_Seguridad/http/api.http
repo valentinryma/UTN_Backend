@@ -1,0 +1,5 @@
+### Access Token
+curl --request POST \
+  --url https://dev-52wr4qnnrox45yl8.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{"client_id":"6ANOA37aYLVHg481ra2v5NkKAI19h8iE","client_secret":"_e3lHKS58JMeWBPuM9YLM6zjizr1QIj5m7ZtHK3BK7sfv_9aopKscEyJI-ISfdvD","audience":"http://localhost:3000/api/libros","grant_type":"client_credentials"}'
