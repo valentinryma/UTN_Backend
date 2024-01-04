@@ -1,0 +1,22 @@
+{
+  "name": "02_ejercicio_mockup_supertest",
+  "version": "1.0.0",
+  "description": "Realizaremos:\r     1. Prueba unitaria con Jest\r     2. Prueba Unitaria Mockup con Jest\r     3. Prueba de Integracion con SuperTest\r     4. Depuracion",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node --watch ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-oauth2-jwt-bearer": "^1.6.0",
+    "mongoose": "^8.0.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
